@@ -81,7 +81,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - HOME
-  - '&macro_5 UP_ARROW'
+  - END
   - $$mdi:pan-right$$
   - $$mdi:pan-left$$
   - $$mdi:pan-down$$
