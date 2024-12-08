@@ -27,8 +27,8 @@
     behaviors {
         mmv {
             acceleration-exponent = <1>;      // 1
-            time-to-max-speed-ms = <900>;    // 40
-            delay-ms = <0>;                   // 0
+            time-to-max-speed-ms = <2000>;    // 40
+            delay-ms = <500>;                   // 0
         };
 
         msc {
@@ -99,8 +99,8 @@
             bindings = <
 &bootloader  &trans  &trans  &trans  &trans  &trans    &mmv MOVE_UP     &trans            &trans     &trans  &trans  &trans  &bootloader
 &sys_reset   &trans  &trans  &trans  &trans  &trans    &mmv MOVE_DOWN   &trans            &trans     &trans  &trans  &trans  &sys_reset
-&trans       &trans  &trans  &trans  &trans  &trans    &mmv MOVE_LEFT   &msc SCROLL_DOWN  &trans     &trans  &trans  &trans  &trans
-&trans       &trans  &trans  &trans  &trans  &trans    &mmv MOVE_RIGHT  &msc SCROLL_UP    &mkp MCLK  &trans  &trans  &trans  &trans
+&trans       &trans  &trans  &trans  &trans  &trans    &mmv MOVE_LEFT   &msc SCRL_DOWN    &trans     &trans  &trans  &trans  &trans
+&trans       &trans  &trans  &trans  &trans  &trans    &mmv MOVE_RIGHT  &msc SCRL_UP      &mkp MCLK  &trans  &trans  &trans  &trans
 &trans       &trans  &trans  &trans  &trans  &trans    &mkp LCLK        &mkp LCLK         &mkp RCLK  &trans  &trans  &trans
             >;
         };
