@@ -89,6 +89,15 @@
         mods = <(MOD_RSFT|MOD_LSFT)>;
     };
 
+    hold_tap_macro: hold_tap_macro {
+        compatible = "zmk,behavior-hold-tap";
+        label = "HOLD_TAP_MACRO";
+        bindings = <&macro_5>, <&kp>;
+
+        #binding-cells = <2>;
+        tapping-term-ms = <200>;
+    };
+
     macros {
         macro_5: macro_5 {
             compatible = "zmk,behavior-macro-one-param";
@@ -115,11 +124,11 @@
 
         layer_1 {
             bindings = <
-&kp GRAVE   &kp F1           &kp F2          &kp F3             &kp F4           &kp F5             &mmv MOVE_UP     &kp F6           &kp F7           &kp F8       &kp F9     &kp F10           &trans
-&trans      &kp HOME         &kp END         &msc SCRL_RIGHT    &msc SCRL_LEFT   &msc SCRL_DOWN     &mmv MOVE_DOWN   &kp HOME         &kp PAGE_DOWN    &kp PAGE_UP  &kp END    &kp MINUS         &kp EQUAL
-&trans      &macro_5 LEFT    &macro_5 DOWN   &macro_5 UP_ARROW  &macro_5 RIGHT   &msc SCRL_UP       &mmv MOVE_LEFT   &kp LEFT         &kp DOWN         &kp UP       &kp RIGHT  &kp LEFT_BRACKET  &kp RIGHT_BRACKET
-&trans      &rgb_ug RGB_OFF  &rgb_ug RGB_ON  &rgb_ug RGB_EFF    &rgb_ug RGB_EFR  &rgb_ug RGB_SPI    &mmv MOVE_RIGHT  &rgb_ug RGB_BRI  &rgb_ug RGB_BRD  &kp INSERT   &kp F11    &kp F12           &trans
-&kp C_MUTE  &trans           &trans          &trans             &trans           &trans             &mkp LCLK        &mkp LCLK        &mkp RCLK        &trans       &trans     &trans
+&kp GRAVE   &kp F1                     &kp F2                     &kp F3                             &kp F4                       &kp F5             &mmv MOVE_UP     &kp F6           &kp F7           &kp F8       &kp F9     &kp F10           &trans
+&trans      &kp HOME                   &kp END                    &msc SCRL_RIGHT                    &msc SCRL_LEFT               &msc SCRL_DOWN     &mmv MOVE_DOWN   &kp HOME         &kp PAGE_DOWN    &kp PAGE_UP  &kp END    &kp MINUS         &kp EQUAL
+&trans      &hold_tap_macro LEFT LEFT  &hold_tap_macro DOWN DOWN  &hold_tap_macro UP_ARROW UP_ARROW  &hold_tap_macro RIGHT RIGHT  &msc SCRL_UP       &mmv MOVE_LEFT   &kp LEFT         &kp DOWN         &kp UP       &kp RIGHT  &kp LEFT_BRACKET  &kp RIGHT_BRACKET
+&trans      &rgb_ug RGB_OFF            &rgb_ug RGB_ON             &rgb_ug RGB_EFF                    &rgb_ug RGB_EFR              &rgb_ug RGB_SPI    &mmv MOVE_RIGHT  &rgb_ug RGB_BRI  &rgb_ug RGB_BRD  &kp INSERT   &kp F11    &kp F12           &trans
+&kp C_MUTE  &trans                     &trans                     &trans                             &trans                       &trans             &mkp LCLK        &mkp LCLK        &mkp RCLK        &trans       &trans     &trans
             >;
 
             display-name = "mod1";
