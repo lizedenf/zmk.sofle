@@ -80,28 +80,28 @@ layers:
   - F10
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '`', s: '~'}
-  - $$mdi:mouse-left-click-outline$$
-  - $$mdi:pan-left$$
-  - $$mdi:pan-right$$
+  - HOME
+  - '&macro_5 UP_ARROW'
+  - '&msc SCROLL_RIGHT'
+  - '&msc SCROLL_LEFT'
   - $$mdi:pan-down$$
   - {t: '$$mdi:menu-down$$', s: '$$mdi:mouse$$'}
-  - PG UP
-  - END
-  - $$mdi:arrow-up-bold$$
   - HOME
+  - PgDn
+  - PgUp
+  - END
   - {t: '-', s: _}
   - {t: '=', s: +}
   - {t: '$$mdi:transfer$$', type: trans}
-  - '~'
-  - {t: '$$mdi:transfer$$', type: trans}
   - '&macro_5 LEFT'
+  - '&macro_5 DOWN'
+  - '&macro_5 UP_ARROW'
   - '&macro_5 RIGHT'
   - $$mdi:pan-up$$
   - {t: '$$mdi:menu-left$$', s: '$$mdi:mouse$$'}
-  - PG DN
   - $$mdi:arrow-left-bold$$
   - $$mdi:arrow-down-bold$$
+  - $$mdi:arrow-up-bold$$
   - $$mdi:arrow-right-bold$$
   - {t: '[', s: '{'}
   - {t: ']', s: '}'}
