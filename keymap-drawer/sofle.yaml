@@ -93,10 +93,10 @@ layers:
   - {t: '-', s: _}
   - {t: '=', s: +}
   - {t: '$$mdi:transfer$$', type: trans}
-  - '&macro_5 LEFT'
-  - '&macro_5 DOWN'
-  - '&macro_5 UP_ARROW'
-  - '&macro_5 RIGHT'
+  - {t: '$$mdi:arrow-left-bold$$', h: '&macro_5 LEFT'}
+  - {t: '$$mdi:arrow-down-bold$$', h: '&macro_5 DOWN'}
+  - {t: '$$mdi:arrow-up-bold$$', h: '&macro_5 UP_ARROW'}
+  - {t: '$$mdi:arrow-right-bold$$', h: '&macro_5 RIGHT'}
   - $$mdi:pan-up$$
   - {t: '$$mdi:menu-left$$', s: '$$mdi:mouse$$'}
   - $$mdi:arrow-left-bold$$
