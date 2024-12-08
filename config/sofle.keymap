@@ -80,6 +80,15 @@
         mods = <(MOD_LSFT|MOD_RSFT)>;
     };
 
+    backspace_shift_del: backspace_shift_del {
+        compatible = "zmk,behavior-mod-morph";
+        label = "BACKSPACE_SHIFT_DEL";
+        bindings = <&kp BACKSPACE>, <&kp DELETE>;
+
+        #binding-cells = <0>;
+        mods = <(MOD_RSFT|MOD_LSFT)>;
+    };
+
     macros {
         macro_5: macro_5 {
             compatible = "zmk,behavior-macro-one-param";
@@ -93,7 +102,7 @@
 
         layer0 {
             bindings = <
-&kp ESC     &kp N1     &kp N2        &kp N3  &kp N4        &kp N5       &mmv MOVE_UP     &kp N6     &kp N7     &kp N8     &kp N9       &kp N0      &kp BACKSPACE
+&kp ESC     &kp N1     &kp N2        &kp N3  &kp N4        &kp N5       &mmv MOVE_UP     &kp N6     &kp N7     &kp N8     &kp N9       &kp N0      &backspace_shift_del
 &kp TAB     &kp Q      &kp W         &kp E   &kp R         &kp T        &mmv MOVE_DOWN   &kp Y      &kp U      &kp I      &kp O        &kp P       &kp BSLH
 &kp GRAVE   &kp A      &kp S         &kp D   &kp F         &kp G        &mmv MOVE_LEFT   &kp H      &kp J      &kp K      &kp L        &kp SEMI    &kp APOS
 &kp LSHFT   &kp Z      &kp X         &kp C   &kp V         &kp B        &mmv MOVE_RIGHT  &kp N      &kp M      &kp COMMA  &kp DOT      &kp FSLH    &mt RIGHT_SHIFT ENTER
@@ -131,11 +140,11 @@
 
         layer_3 {
             bindings = <
-&to 0           &trans  &trans  &trans  &trans  &shift_bootloader    &mmv MOVE_UP     &trans          &kp N7        &kp N8        &kp N9          &trans          &shift_bootloader
-&trans          &trans  &trans  &trans  &trans  &shift_reset         &mmv MOVE_DOWN   &mkp MCLK       &kp NUMBER_4  &kp N5        &kp NUMBER_6    &trans          &shift_reset
-&trans          &trans  &trans  &trans  &trans  &trans               &mmv MOVE_LEFT   &msc SCRL_DOWN  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3    &kp UP_ARROW    &mt RIGHT_SHIFT ENTER
-&kp LEFT_SHIFT  &trans  &trans  &trans  &trans  &trans               &mmv MOVE_RIGHT  &msc SCRL_UP    &kp N0        &kp N0        &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW
-&trans          &trans  &trans  &trans  &trans  &trans               &mkp LCLK        &mkp LCLK       &mkp RCLK     &trans        &trans          &trans
+&to 0           &trans  &trans  &trans  &trans  &shift_bootloader    &mmv MOVE_UP     &shift_bootloader  &kp N7        &kp N8        &kp N9          &trans          &backspace_shift_del
+&trans          &trans  &trans  &trans  &trans  &shift_reset         &mmv MOVE_DOWN   &mkp MCLK          &kp NUMBER_4  &kp N5        &kp NUMBER_6    &trans          &trans
+&trans          &trans  &trans  &trans  &trans  &trans               &mmv MOVE_LEFT   &msc SCRL_DOWN     &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3    &kp UP_ARROW    &mt RIGHT_SHIFT ENTER
+&kp LEFT_SHIFT  &trans  &trans  &trans  &trans  &trans               &mmv MOVE_RIGHT  &msc SCRL_UP       &kp N0        &kp N0        &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW
+&trans          &trans  &trans  &trans  &trans  &trans               &mkp LCLK        &mkp LCLK          &mkp RCLK     &trans        &trans          &trans
             >;
 
             label = "Mouse, Numpad, Arrows";
