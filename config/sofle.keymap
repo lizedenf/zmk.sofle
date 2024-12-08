@@ -46,22 +46,11 @@
         tap-ms = <30>;
     };
 
-
     macros {
         macro_5: macro_5 {
-            compatible = "zmk,behavior-macro";
+            compatible = "zmk,behavior-macro-one-param";
             #binding-cells = <1>;
-            bindings = <&macro_param_1to1>
-                , <&kp MACRO_PLACEHOLDER>
-                , <&macro_param_1to1>
-                , <&kp MACRO_PLACEHOLDER>
-                , <&macro_param_1to1>
-                , <&kp MACRO_PLACEHOLDER>
-                , <&macro_param_1to1>
-                , <&kp MACRO_PLACEHOLDER>
-                , <&macro_param_1to1>
-                , <&kp MACRO_PLACEHOLDER>
-                ;
+            bindings = <&macro_param_1to1 &kp MACRO_PLACEHOLDER &macro_param_1to1 &kp MACRO_PLACEHOLDER &macro_param_1to1 &kp MACRO_PLACEHOLDER &macro_param_1to1 &kp MACRO_PLACEHOLDER &macro_param_1to1 &kp MACRO_PLACEHOLDER>;
         };
     };
 
@@ -85,7 +74,7 @@
             bindings = <
 &kp GRAVE   &kp F1           &kp F2          &kp F3           &kp F4           &kp F5             &mmv MOVE_UP     &kp F6           &kp F7           &kp F8      &kp F9     &kp F10           &trans
 &trans      &kp GRAVE        &mkp LCLK       &msc SCRL_LEFT   &msc SCRL_RIGHT  &msc SCRL_DOWN     &mmv MOVE_DOWN   &kp PG_UP        &kp END          &kp UP      &kp HOME   &kp MINUS         &kp EQUAL
-&trans      &kp TILDE        &trans          &msc SCRL_LEFT   &msc SCRL_RIGHT  &msc SCRL_UP       &mmv MOVE_LEFT   &kp PG_DN        &kp LEFT         &kp DOWN    &kp RIGHT  &kp LEFT_BRACKET  &kp RIGHT_BRACKET
+&trans      &kp TILDE        &trans          &macro_5 LEFT    &macro_5 RIGHT   &msc SCRL_UP       &mmv MOVE_LEFT   &kp PG_DN        &kp LEFT         &kp DOWN    &kp RIGHT  &kp LEFT_BRACKET  &kp RIGHT_BRACKET
 &trans      &rgb_ug RGB_OFF  &rgb_ug RGB_ON  &rgb_ug RGB_EFF  &rgb_ug RGB_EFR  &rgb_ug RGB_SPI    &mmv MOVE_RIGHT  &rgb_ug RGB_BRI  &rgb_ug RGB_BRD  &kp INSERT  &kp F11    &kp F12           &trans
 &kp C_MUTE  &trans           &trans          &trans           &trans           &trans             &mkp LCLK        &mkp LCLK        &mkp RCLK        &trans      &trans     &trans
             >;
