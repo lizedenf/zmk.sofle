@@ -97,11 +97,11 @@
 
         layer_3 {
             bindings = <
-&bootloader  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &bootloader
-&sys_reset   &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &sys_reset
-&trans       &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans       &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans       &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
+&bootloader  &trans  &trans  &trans  &trans  &trans    &mmv MOVE_UP     &trans     &trans     &trans  &trans  &trans  &bootloader
+&sys_reset   &trans  &trans  &trans  &trans  &trans    &mmv MOVE_DOWN   &trans     &trans     &trans  &trans  &trans  &sys_reset
+&trans       &trans  &trans  &trans  &trans  &trans    &mmv MOVE_LEFT   &trans     &trans     &trans  &trans  &trans  &trans
+&trans       &trans  &trans  &trans  &trans  &trans    &mmv MOVE_RIGHT  &mkp MCLK  &trans     &trans  &trans  &trans  &trans
+&trans       &trans  &trans  &trans  &trans  &trans    &mkp LCLK        &mkp LCLK  &mkp RCLK  &trans  &trans  &trans
             >;
         };
     };
