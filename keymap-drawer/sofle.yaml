@@ -267,6 +267,7 @@ layers:
   - {t: ' mouse only layer', h: toggle}
   - {t: ' mouse only layer', h: toggle}
   - {t: ' mouse only layer', h: toggle}
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: ' mouse only layer', h: toggle}
   - {t: ' mouse only layer', h: toggle}
   - {t: ' mouse only layer', h: toggle}
@@ -279,6 +280,7 @@ layers:
   - {t: ' mouse only layer', h: toggle}
   - {t: ' mouse only layer', h: toggle}
   - {t: ' mouse only layer', h: toggle}
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: ' mouse only layer', h: toggle}
   - {t: ' mouse only layer', h: toggle}
   - {t: ' mouse only layer', h: toggle}
@@ -291,6 +293,7 @@ layers:
   - {t: ' mouse only layer', h: toggle}
   - {t: ' mouse only layer', h: toggle}
   - {t: ' mouse only layer', h: toggle}
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: ' mouse only layer', h: toggle}
   - {t: ' mouse only layer', h: toggle}
   - {t: ' mouse only layer', h: toggle}
@@ -303,6 +306,7 @@ layers:
   - {t: ' mouse only layer', h: toggle}
   - {t: ' mouse only layer', h: toggle}
   - {t: ' mouse only layer', h: toggle}
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: ' mouse only layer', h: toggle}
   - {t: ' mouse only layer', h: toggle}
   - {t: ' mouse only layer', h: toggle}
@@ -315,11 +319,7 @@ layers:
   - {t: ' mouse only layer', h: toggle}
   - {t: ' mouse only layer', h: toggle}
   - {t: ' mouse only layer', h: toggle}
-  - {t: ' mouse only layer', h: toggle}
-  - {t: ' mouse only layer', h: toggle}
-  - {t: ' mouse only layer', h: toggle}
-  - {t: ' mouse only layer', h: toggle}
-  - {t: ' mouse only layer', h: toggle}
+  - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:mouse-left-click-outline$$
   - $$mdi:mouse-right-click-outline$$
   - '&msc SCROLL_DOWN'
