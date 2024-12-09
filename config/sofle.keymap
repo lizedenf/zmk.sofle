@@ -180,7 +180,7 @@
 &tog 4  &tog 4  &tog 4  &tog 4  &tog 4  &tog 4    &trans  &tog 4     &tog 4     &tog 4            &tog 4          &tog 4     &tog 4
 &tog 4  &tog 4  &tog 4  &tog 4  &tog 4  &tog 4    &trans  &tog 4     &tog 4     &tog 4            &tog 4          &tog 4     &tog 4
 &tog 4  &tog 4  &tog 4  &tog 4  &tog 4  &tog 4    &trans  &tog 4     &tog 4     &tog 4            &tog 4          &tog 4     &tog 4
-&tog 4  &tog 4  &tog 4  &tog 4  &tog 4  &tog 4    &trans  &mkp LCLK  &mkp RCLK  &msc SCROLL_DOWN  &msc SCRL_DOWN  &mkp MCLK
+&tog 4  &tog 4  &tog 4  &tog 4  &tog 4  &tog 4    &trans  &mkp LCLK  &mkp RCLK  &msc SCRL_DOWN  &msc SCRL_UP  &mkp MCLK
             >;
 
             label = " mouse only layer";
