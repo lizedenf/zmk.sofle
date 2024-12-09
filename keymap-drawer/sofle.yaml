@@ -322,6 +322,6 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:mouse-left-click-outline$$
   - $$mdi:mouse-right-click-outline$$
-  - '&msc SCROLL_DOWN'
   - $$mdi:pan-down$$
+  - $$mdi:pan-up$$
   - $$mdi:mouse-scroll-wheel$$
