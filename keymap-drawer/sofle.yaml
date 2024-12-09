@@ -322,6 +322,6 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - '&mouse_layer_on_mouse_press LCLK 4'
   - '&mouse_layer_on_mouse_press RCLK 4'
-  - '&mouse_layer_on_mouse_scroll SCRL_DOWN 4'
   - '&mouse_layer_on_mouse_scroll SCRL_UP 4'
+  - '&mouse_layer_on_mouse_scroll SCRL_DOWN 4'
   - '&mouse_layer_on_mouse_press MCLK 4'
