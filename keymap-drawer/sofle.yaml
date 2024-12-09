@@ -261,67 +261,67 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   ' mouse only layer':
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
   - {t: ' mouse only layer', h: toggle}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: ' mouse only layer', h: toggle}
+  - {t: ' mouse only layer', h: toggle}
+  - {t: ' mouse only layer', h: toggle}
+  - {t: ' mouse only layer', h: toggle}
+  - {t: ' mouse only layer', h: toggle}
+  - {t: ' mouse only layer', h: toggle}
+  - {t: ' mouse only layer', h: toggle}
+  - {t: ' mouse only layer', h: toggle}
+  - {t: ' mouse only layer', h: toggle}
+  - {t: ' mouse only layer', h: toggle}
+  - {t: ' mouse only layer', h: toggle}
+  - {t: ' mouse only layer', h: toggle}
+  - {t: ' mouse only layer', h: toggle}
+  - {t: ' mouse only layer', h: toggle}
+  - {t: ' mouse only layer', h: toggle}
+  - {t: ' mouse only layer', h: toggle}
+  - {t: ' mouse only layer', h: toggle}
+  - {t: ' mouse only layer', h: toggle}
+  - {t: ' mouse only layer', h: toggle}
+  - {t: ' mouse only layer', h: toggle}
+  - {t: ' mouse only layer', h: toggle}
+  - {t: ' mouse only layer', h: toggle}
+  - {t: ' mouse only layer', h: toggle}
+  - {t: ' mouse only layer', h: toggle}
+  - {t: ' mouse only layer', h: toggle}
+  - {t: ' mouse only layer', h: toggle}
+  - {t: ' mouse only layer', h: toggle}
+  - {t: ' mouse only layer', h: toggle}
+  - {t: ' mouse only layer', h: toggle}
+  - {t: ' mouse only layer', h: toggle}
+  - {t: ' mouse only layer', h: toggle}
+  - {t: ' mouse only layer', h: toggle}
+  - {t: ' mouse only layer', h: toggle}
+  - {t: ' mouse only layer', h: toggle}
+  - {t: ' mouse only layer', h: toggle}
+  - {t: ' mouse only layer', h: toggle}
+  - {t: ' mouse only layer', h: toggle}
+  - {t: ' mouse only layer', h: toggle}
+  - {t: ' mouse only layer', h: toggle}
+  - {t: ' mouse only layer', h: toggle}
+  - {t: ' mouse only layer', h: toggle}
+  - {t: ' mouse only layer', h: toggle}
+  - {t: ' mouse only layer', h: toggle}
+  - {t: ' mouse only layer', h: toggle}
+  - {t: ' mouse only layer', h: toggle}
+  - {t: ' mouse only layer', h: toggle}
+  - {t: ' mouse only layer', h: toggle}
+  - {t: ' mouse only layer', h: toggle}
+  - {t: ' mouse only layer', h: toggle}
+  - {t: ' mouse only layer', h: toggle}
+  - {t: ' mouse only layer', h: toggle}
+  - {t: ' mouse only layer', h: toggle}
+  - {t: ' mouse only layer', h: toggle}
+  - {t: ' mouse only layer', h: toggle}
+  - {t: ' mouse only layer', h: toggle}
+  - {t: ' mouse only layer', h: toggle}
+  - {t: ' mouse only layer', h: toggle}
+  - {t: ' mouse only layer', h: toggle}
   - $$mdi:mouse-left-click-outline$$
   - $$mdi:mouse-right-click-outline$$
   - '&msc SCROLL_DOWN'
-  - '&msc SCROLL_UP'
+  - $$mdi:pan-down$$
   - $$mdi:mouse-scroll-wheel$$
