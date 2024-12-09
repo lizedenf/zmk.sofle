@@ -93,16 +93,16 @@ layers:
   - {t: '-', s: _}
   - {t: '=', s: +}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '&macro_5 LEFT', h: '&macro_15 LEFT'}
-  - {t: '&macro_5 DOWN', h: '&macro_15 DOWN'}
-  - {t: '&macro_5 UP_ARROW', h: '&macro_15 UP_ARROW'}
-  - {t: '&macro_5 RIGHT', h: '&macro_15 RIGHT'}
+  - {t: '&macro_5 LEFT', h: '&macro_8 LEFT'}
+  - {t: '&macro_5 DOWN', h: '&macro_8 DOWN'}
+  - {t: '&macro_5 UP_ARROW', h: '&macro_8 UP_ARROW'}
+  - {t: '&macro_5 RIGHT', h: '&macro_8 RIGHT'}
   - $$mdi:pan-up$$
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:arrow-left-bold$$', h: '&macro_15 LEFT'}
-  - {t: '$$mdi:arrow-down-bold$$', h: '&macro_15 DOWN'}
-  - {t: '$$mdi:arrow-up-bold$$', h: '&macro_15 UP'}
-  - {t: '$$mdi:arrow-right-bold$$', h: '&macro_15 RIGHT'}
+  - {t: '$$mdi:arrow-left-bold$$', h: '&macro_8 LEFT'}
+  - {t: '$$mdi:arrow-down-bold$$', h: '&macro_8 DOWN'}
+  - {t: '$$mdi:arrow-up-bold$$', h: '&macro_8 UP'}
+  - {t: '$$mdi:arrow-right-bold$$', h: '&macro_8 RIGHT'}
   - {t: '[', s: '{'}
   - {t: ']', s: '}'}
   - {t: '$$mdi:transfer$$', type: trans}
