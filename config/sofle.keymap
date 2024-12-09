@@ -211,7 +211,7 @@
 &to 0           &trans  &trans  &trans  &trans  &shift_bootloader    &trans  &trans                                      &kp N7        &kp N8        &kp N9        &trans  &trans
 &trans          &trans  &trans  &trans  &trans  &shift_reset         &trans  &mkp MCLK                                   &kp NUMBER_4  &kp N5        &kp NUMBER_6  &trans  &trans
 &trans          &trans  &trans  &trans  &trans  &trans               &trans  &hold_tap_mouse_scroll SCRL_DOWN SCRL_DOWN  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &trans  &trans
-&kp LEFT_SHIFT  &trans  &trans  &trans  &trans  &trans               &trans  &hold_tap_mouse_scroll SCRL_UP SCRL_UP      &kp N0        &kp N0        &trans        &trans  &trans
+&kp LEFT_SHIFT  &trans  &trans  &trans  &trans  &trans               &trans  &msc SCROLL_VERT 20                         &kp N0        &kp N0        &trans        &trans  &trans
 &trans          &trans  &trans  &trans  &trans  &trans               &trans  &mkp LCLK                                   &mkp RCLK     &trans        &trans        &trans
             >;
 
