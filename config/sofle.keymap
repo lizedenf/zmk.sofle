@@ -98,10 +98,10 @@
         mods = <(MOD_RSFT|MOD_LSFT)>;
     };
 
-    hold_tap_macro: hold_tap_macro {
+    hold_tap_macro_5_15: hold_tap_macro_5_15 {
         compatible = "zmk,behavior-hold-tap";
-        label = "HOLD_TAP_MACRO";
-        bindings = <&macro_5>, <&kp>;
+        label = "HOLD_TAP_MACRO_5_15";
+        bindings = <&macro_15>, <&macro_5>;
 
         #binding-cells = <2>;
         tapping-term-ms = <200>;
@@ -111,6 +111,15 @@
         compatible = "zmk,behavior-hold-tap";
         label = "HOLD_TAP_MOUSE_SCROLL";
         bindings = <&msc>, <&mouse_scroll_fast>;
+
+        #binding-cells = <2>;
+        tapping-term-ms = <200>;
+    };
+
+    hold_tap_macro_1_15: hold_tap_macro_1_15 {
+        compatible = "zmk,behavior-hold-tap";
+        label = "HOLD_TAP_MACRO_1_15";
+        bindings = <&macro_15>, <&kp>;
 
         #binding-cells = <2>;
         tapping-term-ms = <200>;
@@ -174,6 +183,13 @@
 
             label = "MOUSE_SCROLL_MACRO_5";
         };
+
+        macro_15: macro_15 {
+            compatible = "zmk,behavior-macro-one-param";
+            #binding-cells = <1>;
+            bindings = <&macro_param_1to1 &kp MACRO_PLACEHOLDER &macro_param_1to1 &kp MACRO_PLACEHOLDER &macro_param_1to1 &kp MACRO_PLACEHOLDER &macro_param_1to1 &kp MACRO_PLACEHOLDER &macro_param_1to1 &kp MACRO_PLACEHOLDER>;
+            label = "MACRO_15";
+        };
     };
 
     keymap {
@@ -194,11 +210,11 @@
 
         arrows_alt {
             bindings = <
-&kp GRAVE   &kp F1                     &kp F2                     &kp F3                             &kp F4                       &kp F5             &trans  &kp F6           &kp F7           &kp F8       &kp F9     &kp F10           &trans
-&trans      &kp HOME                   &kp END                    &msc SCRL_RIGHT                    &msc SCRL_LEFT               &msc SCRL_DOWN     &trans  &kp HOME         &kp PAGE_DOWN    &kp PAGE_UP  &kp END    &kp MINUS         &kp EQUAL
-&trans      &hold_tap_macro LEFT LEFT  &hold_tap_macro DOWN DOWN  &hold_tap_macro UP_ARROW UP_ARROW  &hold_tap_macro RIGHT RIGHT  &msc SCRL_UP       &trans  &kp LEFT         &kp DOWN         &kp UP       &kp RIGHT  &kp LEFT_BRACKET  &kp RIGHT_BRACKET
-&trans      &rgb_ug RGB_OFF            &rgb_ug RGB_ON             &rgb_ug RGB_EFF                    &rgb_ug RGB_EFR              &rgb_ug RGB_SPI    &trans  &rgb_ug RGB_BRI  &rgb_ug RGB_BRD  &kp INSERT   &kp F11    &kp F12           &trans
-&kp C_MUTE  &trans                     &trans                     &trans                             &trans                       &trans             &trans  &mkp LCLK        &mkp RCLK        &trans       &trans     &trans
+&kp GRAVE   &kp F1                          &kp F2                          &kp F3                                  &kp F4                            &kp F5             &trans  &kp F6                          &kp F7                          &kp F8                            &kp F9                            &kp F10           &trans
+&trans      &kp HOME                        &kp END                         &msc SCRL_RIGHT                         &msc SCRL_LEFT                    &msc SCRL_DOWN     &trans  &kp HOME                        &kp PAGE_DOWN                   &kp PAGE_UP                       &kp END                           &kp MINUS         &kp EQUAL
+&trans      &hold_tap_macro_5_15 LEFT LEFT  &hold_tap_macro_5_15 DOWN DOWN  &hold_tap_macro_5_15 UP_ARROW UP_ARROW  &hold_tap_macro_5_15 RIGHT RIGHT  &msc SCRL_UP       &trans  &hold_tap_macro_1_15 LEFT LEFT  &hold_tap_macro_1_15 DOWN DOWN  &hold_tap_macro_1_15 UP UP_ARROW  &hold_tap_macro_1_15 RIGHT RIGHT  &kp LEFT_BRACKET  &kp RIGHT_BRACKET
+&trans      &rgb_ug RGB_OFF                 &rgb_ug RGB_ON                  &rgb_ug RGB_EFF                         &rgb_ug RGB_EFR                   &rgb_ug RGB_SPI    &trans  &rgb_ug RGB_BRI                 &rgb_ug RGB_BRD                 &kp INSERT                        &kp F11                           &kp F12           &trans
+&kp C_MUTE  &trans                          &trans                          &trans                                  &trans                            &trans             &trans  &mkp LCLK                       &mkp RCLK                       &trans                            &trans                            &trans
             >;
 
             display-name = "mod1";
