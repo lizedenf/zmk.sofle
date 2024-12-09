@@ -98,6 +98,15 @@
         tapping-term-ms = <200>;
     };
 
+    mouse_move: mouse_move {
+        compatible = "zmk,behavior-mouse-move";
+        label = "MOUSE_MOVE";
+        #binding-cells = <1>;
+        acceleration-exponent = <2>;
+        time-to-max-speed-ms = <2000>;
+        delay-ms = <500>;
+    };
+
     macros {
         macro_5: macro_5 {
             compatible = "zmk,behavior-macro-one-param";
