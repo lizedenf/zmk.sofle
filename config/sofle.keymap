@@ -18,9 +18,15 @@
 #define U_WH_R &msc SCRL_RIGHT
 
 &mmv {
+    acceleration-exponent = <2>;      // 1
+    time-to-max-speed-ms = <2000>;    // 40
+    delay-ms = <500>;                   // 0
 };
 
 &msc {
+    acceleration-exponent = <2>;      // 0
+    time-to-max-speed-ms = <400>;      // 500
+    delay-ms = <0>;                   //   10
 };
 
 / {
@@ -98,15 +104,6 @@
         tapping-term-ms = <200>;
     };
 
-    mouse_move: mouse_move {
-        compatible = "zmk,behavior-mouse-move";
-        label = "MOUSE_MOVE";
-        #binding-cells = <1>;
-        acceleration-exponent = <2>;
-        time-to-max-speed-ms = <2000>;
-        delay-ms = <500>;
-    };
-
     macros {
         macro_5: macro_5 {
             compatible = "zmk,behavior-macro-one-param";
@@ -119,12 +116,12 @@
             #binding-cells = <2>;
             bindings =
                 <&macro_press>,
-                <&macro_param_1to1 &mouse_move MACRO_PLACEHOLDER>,
+                <&macro_param_1to1 &mmv MACRO_PLACEHOLDER>,
                 <&macro_tap>,
                 <&macro_param_2to1 &sl MACRO_PLACEHOLDER>,
                 <&macro_pause_for_release>,
                 <&macro_release>,
-                <&macro_param_1to1 &mouse_move MACRO_PLACEHOLDER>;
+                <&macro_param_1to1 &mmv MACRO_PLACEHOLDER>;
 
             label = "MOUSE_LAYER_ON_MOVE";
         };
