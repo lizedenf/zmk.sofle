@@ -164,7 +164,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '&mouse_scroll_macro_5 SCRL_DOWN', h: '$$mdi:pan-down$$'}
+  - '&mouse_scroll_fast SCRL_DOWN'
   - '1'
   - '2'
   - '3'
@@ -177,7 +177,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '&mouse_scroll_macro_5 SCRL_UP', h: '$$mdi:pan-up$$'}
+  - '&mouse_scroll_fast SCRL_UP'
   - {t: '0', s: )}
   - {t: '0', s: )}
   - {t: '$$mdi:transfer$$', type: trans}
