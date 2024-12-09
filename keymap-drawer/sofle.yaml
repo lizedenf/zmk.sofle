@@ -7,7 +7,7 @@ layers:
   - {t: '3', s: '#'}
   - {t: '4', s: $}
   - {t: '5', s: '%'}
-  - '&mouse_layer_on_move MOVE_UP 5'
+  - '&mouse_layer_on_move MOVE_UP 4'
   - {t: '6', s: ^}
   - {t: '7', s: '&'}
   - {t: '8', s: '*'}
@@ -20,7 +20,7 @@ layers:
   - E
   - R
   - T
-  - '&mouse_layer_on_move MOVE_DOWN 5'
+  - '&mouse_layer_on_move MOVE_DOWN 4'
   - Y
   - U
   - I
@@ -33,7 +33,7 @@ layers:
   - D
   - F
   - G
-  - '&mouse_layer_on_move MOVE_LEFT 5'
+  - '&mouse_layer_on_move MOVE_LEFT 4'
   - H
   - J
   - K
@@ -46,7 +46,7 @@ layers:
   - C
   - V
   - B
-  - '&mouse_layer_on_move MOVE_RIGHT 5'
+  - '&mouse_layer_on_move MOVE_RIGHT 4'
   - N
   - M
   - {t: ',', s: <}
@@ -320,8 +320,8 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - '&mouse_layer_on_mouse_press LCLK 5'
-  - '&mouse_layer_on_mouse_press RCLK 5'
-  - '&mouse_layer_on_mouse_scroll SCRL_UP 5'
-  - '&mouse_layer_on_mouse_scroll SCRL_DOWN 5'
-  - '&mouse_layer_on_mouse_press MCLK 5'
+  - '&mouse_layer_on_mouse_press LCLK 4'
+  - '&mouse_layer_on_mouse_press RCLK 4'
+  - '&mouse_layer_on_mouse_scroll SCRL_UP 4'
+  - '&mouse_layer_on_mouse_scroll SCRL_DOWN 4'
+  - '&mouse_layer_on_mouse_press MCLK 4'
