@@ -59,7 +59,7 @@ layers:
   - mod1
   - $$mdi:apple-keyboard-command$$
   - $$mdi:keyboard-space$$
-  - $$mdi:mouse-left-click-outline$$
+  - '&mouse_layer_on_mouse_press LCLK 4'
   - $$mdi:keyboard-space$$
   - $$mdi:keyboard-space$$
   - '&layer_numpad_td'
@@ -294,6 +294,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
+  - '&mouse_layer_on_mouse_scroll MOVE_DOWN 4'
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -306,8 +307,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - '&mouse_layer_on_mouse_scroll MOVE_UP 4'
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -322,6 +322,6 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - '&mouse_layer_on_mouse_press LCLK 4'
   - '&mouse_layer_on_mouse_press RCLK 4'
-  - '&mouse_layer_on_mouse_scroll SCRL_UP 4'
-  - '&mouse_layer_on_mouse_scroll SCRL_DOWN 4'
   - '&mouse_layer_on_mouse_press MCLK 4'
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
