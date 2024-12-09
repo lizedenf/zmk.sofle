@@ -107,7 +107,7 @@
     hold_tap_mouse_scroll: hold_tap_mouse_scroll {
         compatible = "zmk,behavior-hold-tap";
         label = "HOLD_TAP_MOUSE_SCROLL";
-        bindings = <&msc>, <&mouse_scroll_macro_5>;
+        bindings = <&msc>, <&mouse_scroll_fast>;
 
         #binding-cells = <2>;
         tapping-term-ms = <200>;
@@ -165,10 +165,16 @@
             label = "MOUSE_LAYER_ON_MOUSE_SCROLL";
         };
 
-        mouse_scroll_macro_5: mouse_scroll_macro_5 {
+        mouse_scroll_fast: mouse_scroll_macro_5 {
             compatible = "zmk,behavior-macro-one-param";
             #binding-cells = <1>;
-            bindings = <&macro_param_1to1 &msc MACRO_PLACEHOLDER &macro_param_1to1 &msc MACRO_PLACEHOLDER &macro_param_1to1 &msc MACRO_PLACEHOLDER &macro_param_1to1 &msc MACRO_PLACEHOLDER &macro_param_1to1 &msc MACRO_PLACEHOLDER>;
+            bindings =
+                <&macro_press>,
+                <&macro_param_1to1 &msc MACRO_PLACEHOLDER>,
+                <&macro_pause_for_release>,
+                <&macro_release>,
+                <&macro_param_1to1 &msc MACRO_PLACEHOLDER>;
+
             label = "MOUSE_SCROLL_MACRO_5";
         };
     };
@@ -204,11 +210,11 @@
 
         numpad_alt2 {
             bindings = <
-&to 0           &trans  &trans  &trans  &trans  &shift_bootloader    &trans  &trans                                        &kp N7        &kp N8        &kp N9        &trans  &trans
-&trans          &trans  &trans  &trans  &trans  &shift_reset         &trans  &mkp MCLK                                     &kp NUMBER_4  &kp N5        &kp NUMBER_6  &trans  &trans
-&trans          &trans  &trans  &trans  &trans  &trans               &trans  &hold_tap_mouse_scroll SCRL_DOWN SCRL_DOWN  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &trans  &trans
-&kp LEFT_SHIFT  &trans  &trans  &trans  &trans  &trans               &trans  &hold_tap_mouse_scroll SCRL_UP SCRL_UP      &kp N0        &kp N0        &trans        &trans  &trans
-&trans          &trans  &trans  &trans  &trans  &trans               &trans  &mkp LCLK                                     &mkp RCLK     &trans        &trans        &trans
+&to 0           &trans  &trans  &trans  &trans  &shift_bootloader    &trans  &trans                        &kp N7        &kp N8        &kp N9        &trans  &trans
+&trans          &trans  &trans  &trans  &trans  &shift_reset         &trans  &mkp MCLK                     &kp NUMBER_4  &kp N5        &kp NUMBER_6  &trans  &trans
+&trans          &trans  &trans  &trans  &trans  &trans               &trans  &mouse_scroll_fast SCRL_DOWN  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &trans  &trans
+&kp LEFT_SHIFT  &trans  &trans  &trans  &trans  &trans               &trans  &mouse_scroll_fast SCRL_UP    &kp N0        &kp N0        &trans        &trans  &trans
+&trans          &trans  &trans  &trans  &trans  &trans               &trans  &mkp LCLK                     &mkp RCLK     &trans        &trans        &trans
             >;
 
             label = "Mouse, Numpad, Arrows";
