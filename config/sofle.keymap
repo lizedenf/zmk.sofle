@@ -19,8 +19,8 @@
 
 &mmv {
     acceleration-exponent = <2>;      // 1
-    time-to-max-speed-ms = <2000>;    // 40
-    delay-ms = <500>;                   // 0
+    time-to-max-speed-ms = <1000>;    // 40
+    delay-ms = <0>;                   // 0
 };
 
 &msc {
@@ -212,10 +212,10 @@
 
         layer_4 {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans                              &trans                              &trans                                    &trans                                  &trans                              &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans                              &trans                              &trans                                    &trans                                  &trans                              &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans                              &trans                              &trans                                    &trans                                  &trans                              &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans                              &trans                              &trans                                    &trans                                  &trans                              &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans                              &trans                              &trans                                  &trans                                    &trans                              &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans                              &trans                              &trans                                  &trans                                    &trans                              &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans                              &trans                              &trans                                  &trans                                    &trans                              &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans                              &trans                              &trans                                  &trans                                    &trans                              &trans
 &trans  &trans  &trans  &trans  &trans  &trans    &trans  &mouse_layer_on_mouse_press LCLK 4  &mouse_layer_on_mouse_press RCLK 4  &mouse_layer_on_mouse_scroll SCRL_UP 4  &mouse_layer_on_mouse_scroll SCRL_DOWN 4  &mouse_layer_on_mouse_press MCLK 4
             >;
 
