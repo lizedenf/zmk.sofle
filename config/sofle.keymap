@@ -176,11 +176,11 @@
 
         layer_4 {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans     &trans     &trans            &trans          &trans     &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans     &trans     &trans            &trans          &trans     &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans     &trans     &trans            &trans          &trans     &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &tog 4     &trans     &trans            &trans          &trans     &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &mkp LCLK  &mkp RCLK  &msc SCROLL_DOWN  &msc SCROLL_UP  &mkp MCLK
+&tog 4   &tog 4   &tog 4   &tog 4   &tog 4   &tog 4     &tog 4   &tog 4      &tog 4      &tog 4             &tog 4           &tog 4      &tog 4 
+&tog 4   &tog 4   &tog 4   &tog 4   &tog 4   &tog 4     &tog 4   &tog 4      &tog 4      &tog 4             &tog 4           &tog 4      &tog 4 
+&tog 4   &tog 4   &tog 4   &tog 4   &tog 4   &tog 4     &tog 4   &tog 4      &tog 4      &tog 4             &tog 4           &tog 4      &tog 4 
+&tog 4   &tog 4   &tog 4   &tog 4   &tog 4   &tog 4     &tog 4   &tog 4     &tog 4      &tog 4             &tog 4           &tog 4      &tog 4 
+&tog 4   &tog 4   &tog 4   &tog 4   &tog 4   &tog 4     &tog 4   &mkp LCLK  &mkp RCLK  &msc SCROLL_DOWN  &msc SCRL_DOWN  &mkp MCLK
             >;
 
             label = " mouse only layer";
