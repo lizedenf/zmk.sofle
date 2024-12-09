@@ -177,7 +177,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - '&msc SCRL_VERT 20'
+  - {t: '&mouse_scroll_macro_5 SCRL_UP', h: '$$mdi:pan-up$$'}
   - {t: '0', s: )}
   - {t: '0', s: )}
   - {t: '$$mdi:transfer$$', type: trans}
