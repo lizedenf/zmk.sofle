@@ -208,6 +208,7 @@
             >;
 
             sensor-bindings = <&scroll_encoder>;
+            label = "FN Layer";
         };
 
         temp_mouse_layer {
