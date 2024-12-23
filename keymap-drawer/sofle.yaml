@@ -90,8 +90,8 @@ layers:
   - PgDn
   - PgUp
   - END
-  - {t: '-', s: _}
-  - {t: '=', s: +}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '&macro_5 LEFT', h: '&macro_8 LEFT'}
   - {t: '&macro_5 DOWN', h: '&macro_8 DOWN'}
@@ -103,8 +103,8 @@ layers:
   - {t: '$$mdi:arrow-down-bold$$', h: '&macro_8 DOWN'}
   - {t: '$$mdi:arrow-up-bold$$', h: '&macro_8 UP'}
   - {t: '$$mdi:arrow-right-bold$$', h: '&macro_8 RIGHT'}
-  - {t: '[', s: '{'}
-  - {t: ']', s: '}'}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -155,8 +155,8 @@ layers:
   - '4'
   - {t: '5', s: '%'}
   - '6'
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '-', s: _}
+  - {t: '=', s: +}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -168,8 +168,8 @@ layers:
   - '1'
   - '2'
   - '3'
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '[', s: '{'}
+  - {t: ']', s: '}'}
   - $$mdi:apple-keyboard-shift$$
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
