@@ -1,9 +1,12 @@
 #include <behaviors/mouse_keys.dtsi>
+#include <dt-bindings/zmk/mouse.h>
 #include <behaviors.dtsi>
 #include <dt-bindings/zmk/bt.h>
 #include <dt-bindings/zmk/keys.h>
-#include <dt-bindings/zmk/mouse.h>
 #include <dt-bindings/zmk/outputs.h>
+#include <dt-bindings/zmk/pointing.h>
+#include <dt-bindings/zmk/pointing.h>
+#include <dt-bindings/zmk/pointing.h>
 #include <dt-bindings/zmk/rgb.h>
 
 #define ZMK_MOUSE_DEFAULT_MOVE_VAL 2400  // 600
@@ -248,11 +251,11 @@
 
         temp_mouse_layer {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans                                    &trans                              &trans                              &trans                                    &trans                                  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans                                    &trans                              &trans                              &trans                                    &trans                                  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &mouse_layer_on_mouse_scroll SCRL_DOWN 4  &trans                              &trans                              &trans                                    &trans                                  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &mouse_layer_on_mouse_scroll SCRL_UP 4    &trans                              &trans                              &trans                                    &trans                                  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &mouse_layer_on_mouse_press LCLK 4        &mouse_layer_on_mouse_press RCLK 4  &mouse_layer_on_mouse_press MCLK 4  &mouse_layer_on_mouse_scroll MOVE_DOWN 4  &mouse_layer_on_mouse_scroll MOVE_UP 4
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans                                    &trans                                    &trans                                     &trans                                    &trans                                  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans                                    &trans                                    &trans                                     &trans                                    &trans                                  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &mouse_layer_on_mouse_scroll SCRL_DOWN 4  &trans                                    &trans                                     &trans                                    &trans                                  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &mouse_layer_on_mouse_scroll SCRL_UP 4    &mouse_layer_on_mouse_scroll SCRL_LEFT 4  &mouse_layer_on_mouse_scroll SCRL_RIGHT 4  &trans                                    &trans                                  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &mouse_layer_on_mouse_press LCLK 4        &mouse_layer_on_mouse_press RCLK 4        &mouse_layer_on_mouse_press MCLK 4         &mouse_layer_on_mouse_scroll MOVE_DOWN 4  &mouse_layer_on_mouse_scroll MOVE_UP 4
             >;
 
             label = " mouse only layer";
