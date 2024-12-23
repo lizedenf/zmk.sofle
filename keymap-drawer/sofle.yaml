@@ -308,8 +308,8 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - '&mouse_layer_on_mouse_scroll SCRL_UP 4'
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - '&mouse_layer_on_mouse_scroll SCRL_LEFT 4'
+  - '&mouse_layer_on_mouse_scroll SCRL_RIGHT 4'
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
