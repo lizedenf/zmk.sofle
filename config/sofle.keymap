@@ -213,11 +213,11 @@
 
         arrows_alt {
             bindings = <
-&kp GRAVE   &kp F1                         &kp F2                         &kp F3                                 &kp F4                           &kp F5             &trans  &kp F6                         &kp F7                         &kp F8                           &kp F9                           &kp F10           &trans
-&trans      &kp HOME                       &kp END                        &msc SCRL_RIGHT                        &msc SCRL_LEFT                   &msc SCRL_DOWN     &trans  &kp HOME                       &kp PAGE_DOWN                  &kp PAGE_UP                      &kp END                          &trans        &trans
-&trans      &hold_tap_macro_5_8 LEFT LEFT  &hold_tap_macro_5_8 DOWN DOWN  &hold_tap_macro_5_8 UP_ARROW UP_ARROW  &hold_tap_macro_5_8 RIGHT RIGHT  &msc SCRL_UP       &trans  &hold_tap_macro_1_8 LEFT LEFT  &hold_tap_macro_1_8 DOWN DOWN  &hold_tap_macro_1_8 UP UP_ARROW  &hold_tap_macro_1_8 RIGHT RIGHT  &trans  &trans
-&trans      &trans                &trans                 &trans                        &trans                  &trans    &trans  &trans                &trans                &kp INSERT                       &kp F11                          &kp F12           &trans
-&kp C_MUTE  &trans                         &trans                         &trans                                 &trans                           &trans             &trans  &mkp LCLK                      &mkp RCLK                      &trans                           &trans                           &trans
+&kp GRAVE   &kp F1                         &kp F2                         &kp F3                                 &kp F4                           &kp F5            &trans  &kp F6                         &kp F7                         &kp F8                           &kp F9                           &kp F10  &trans
+&trans      &kp HOME                       &kp END                        &msc SCRL_RIGHT                        &msc SCRL_LEFT                   &msc SCRL_DOWN    &trans  &kp HOME                       &kp PAGE_DOWN                  &kp PAGE_UP                      &kp END                          &kp F11  &kp F12
+&trans      &hold_tap_macro_5_8 LEFT LEFT  &hold_tap_macro_5_8 DOWN DOWN  &hold_tap_macro_5_8 UP_ARROW UP_ARROW  &hold_tap_macro_5_8 RIGHT RIGHT  &msc SCRL_UP      &trans  &hold_tap_macro_1_8 LEFT LEFT  &hold_tap_macro_1_8 DOWN DOWN  &hold_tap_macro_1_8 UP UP_ARROW  &hold_tap_macro_1_8 RIGHT RIGHT  &trans   &trans
+&trans      &trans                         &trans                         &trans                                 &trans                           &trans            &trans  &trans                         &trans                         &trans                           &trans                           &trans   &trans
+&kp C_MUTE  &trans                         &trans                         &trans                                 &trans                           &trans            &trans  &mkp LCLK                      &mkp RCLK                      &trans                           &trans                           &trans
             >;
 
             display-name = "mod1";
@@ -226,11 +226,11 @@
 
         numpad_alt2 {
             bindings = <
-&to 0           &trans  &trans  &trans  &trans  &shift_bootloader    &trans  &trans                        &kp N7        &kp N8        &kp N9        &trans  &trans
-&trans          &trans  &trans  &trans  &trans  &shift_reset         &trans  &mkp MCLK                     &kp NUMBER_4  &kp N5        &kp NUMBER_6  &kp MINUS         &kp EQUAL
-&trans          &trans  &trans  &trans  &trans  &trans               &trans  &mouse_scroll_fast SCRL_DOWN  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp LEFT_BRACKET  &kp RIGHT_BRACKET
-&kp LEFT_SHIFT  &trans  &trans  &trans  &trans  &trans               &trans  &mouse_scroll_fast SCRL_UP    &kp N0        &kp N0        &trans        &trans  &trans
-&trans          &trans  &trans  &trans  &trans  &trans               &trans  &mkp LCLK                     &mkp RCLK     &trans        &trans        &trans
+&to 0   &trans  &trans  &trans  &trans  &shift_bootloader    &trans  &trans        &kp N7                &kp N8                 &kp N9          &trans            &trans
+&trans  &trans  &trans  &trans  &trans  &shift_reset         &trans  &trans        &kp NUMBER_4          &kp N5                 &kp NUMBER_6    &kp MINUS         &kp EQUAL
+&trans  &trans  &trans  &trans  &trans  &trans               &trans  &trans        &kp NUMBER_1          &kp NUMBER_2           &kp NUMBER_3    &kp LEFT_BRACKET  &kp RIGHT_BRACKET
+&trans  &trans  &trans  &trans  &trans  &trans               &trans  &kp NUMBER_0  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp LEFT_BRACE  &kp RIGHT_BRACE   &trans
+&trans  &trans  &trans  &trans  &trans  &trans               &trans  &trans        &trans                &trans                 &trans          &trans
             >;
 
             label = "Mouse, Numpad, Arrows";
@@ -238,11 +238,11 @@
 
         fn_layer {
             bindings = <
-&kp TILDE  &bt BT_SEL 0    &bt BT_SEL 1    &bt BT_SEL 2    &bt BT_SEL 3    &bt BT_SEL 4      &trans  &trans         &trans        &trans    &trans       &trans    &trans
-&trans     &bt BT_CLR      &bt BT_CLR_ALL  &trans          &trans          &trans            &trans  &trans         &trans        &trans    &trans       &trans    &trans
-&trans     &out OUT_USB    &out OUT_BLE    &trans          &trans          &trans            &trans  &trans         &trans        &trans    &soft_off    &trans    &trans
-&trans     &rgb_ug RGB_OFF &rgb_ug RGB_ON  &rgb_ug RGB_EFF &rgb_ug RGB_EFR &rgb_ug RGB_SPI   &trans  &rgb_ug RGB_BRI &rgb_ug RGB_BRD &trans    &trans       &trans    &trans
-&trans     &trans          &trans          &trans          &sys_reset      &bootloader       &trans  &bootloader     &sys_reset    &trans    &trans       &trans
+&kp TILDE  &bt BT_SEL 0     &bt BT_SEL 1    &bt BT_SEL 2     &bt BT_SEL 3     &bt BT_SEL 4       &trans  &trans           &trans           &trans  &trans     &trans  &trans
+&trans     &bt BT_CLR       &bt BT_CLR_ALL  &trans           &trans           &trans             &trans  &trans           &trans           &trans  &trans     &trans  &trans
+&trans     &out OUT_USB     &out OUT_BLE    &trans           &trans           &trans             &trans  &trans           &trans           &trans  &soft_off  &trans  &trans
+&trans     &rgb_ug RGB_OFF  &rgb_ug RGB_ON  &rgb_ug RGB_EFF  &rgb_ug RGB_EFR  &rgb_ug RGB_SPI    &trans  &rgb_ug RGB_BRI  &rgb_ug RGB_BRD  &trans  &trans     &trans  &trans
+&trans     &trans           &trans          &trans           &sys_reset       &bootloader        &trans  &bootloader      &sys_reset       &trans  &trans     &trans
             >;
 
             sensor-bindings = <&scroll_encoder>;
