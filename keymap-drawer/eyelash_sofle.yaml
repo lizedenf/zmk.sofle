@@ -60,7 +60,7 @@ layers:
   - $$mdi:keyboard-space$$
   - '&mouse_layer_on_mouse_press LCLK 4'
   - $$mdi:keyboard-space$$
-  - Mouse, Numpad, Arrows
+  - {t: '$$mdi:keyboard-return$$', h: '$$mdi:apple-keyboard-shift$$'}
   - '&layer_numpad_td'
   - FN Layer
   - $$mdi:backspace-reverse-outline$$
@@ -190,7 +190,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {type: held}
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
