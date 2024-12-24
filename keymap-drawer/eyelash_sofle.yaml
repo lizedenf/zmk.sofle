@@ -293,7 +293,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - '&mouse_layer_on_mouse_scroll SCRL_DOWN 4'
+  - $$mdi:pan-down$$
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -306,9 +306,9 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - '&mouse_layer_on_mouse_scroll SCRL_UP 4'
-  - '&mouse_layer_on_mouse_scroll SCRL_RIGHT 4'
-  - '&mouse_layer_on_mouse_scroll SCRL_LEFT 4'
+  - $$mdi:pan-up$$
+  - $$mdi:pan-right$$
+  - $$mdi:pan-left$$
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -319,8 +319,8 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - '&mouse_layer_on_mouse_press LCLK 4'
-  - '&mouse_layer_on_mouse_press RCLK 4'
-  - '&mouse_layer_on_mouse_press MCLK 4'
-  - '&mouse_layer_on_mouse_scroll MOVE_DOWN 4'
-  - '&mouse_layer_on_mouse_scroll MOVE_UP 4'
+  - $$mdi:mouse-left-click-outline$$
+  - $$mdi:mouse-right-click-outline$$
+  - $$mdi:mouse-scroll-wheel$$
+  - {t: '$$mdi:menu-down$$', s: '$$mdi:mouse$$'}
+  - '&mkp MB5'
