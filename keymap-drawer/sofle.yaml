@@ -27,7 +27,7 @@ layers:
   - O
   - P
   - {t: \, s: '|'}
-  - {t: '`', s: '~'}
+  - '~'
   - {t: A, h: '$$mdi:apple-keyboard-command$$'}
   - {t: S, h: '$$mdi:apple-keyboard-option$$'}
   - {t: D, h: '$$mdi:apple-keyboard-control$$'}
@@ -54,17 +54,17 @@ layers:
   - {t: /, s: '?'}
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - $$mdi:volume-off$$
-  - Gui+Sft+S
+  - {t: Gui+Sft+S, h: '$$mdi:apple-keyboard-option$$'}
   - $$mdi:apple-keyboard-command$$
   - num
-  - {t: '$$mdi:keyboard-return$$', h: bt-rgb-media}
+  - {t: '$$mdi:backspace$$', h: bt-rgb-media}
   - {t: '$$mdi:keyboard-space$$', h: num}
   - {t: '$$mdi:keyboard-return$$', type: enter}
-  - {t: '$$mdi:backspace$$', h: num}
+  - {t: '$$mdi:keyboard-return$$', h: num}
   - {t: '$$mdi:backspace-reverse-outline$$', h: bt-rgb-media}
   - {t: HOME, h: '3'}
   - {t: END, h: '4'}
-  - $$mdi:backspace-reverse-outline$$
+  - $$mdi:keyboard-esc$$
   num:
   - {t: '`', s: '~'}
   - F1
@@ -90,7 +90,7 @@ layers:
   - KP 7
   - KP 8
   - KP 9
-  - {t: '-', s: _}
+  - +
   - {t: '=', s: +}
   - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:arrow-left-bold$$
@@ -99,11 +99,11 @@ layers:
   - PG DN
   - '&mkp MB5'
   - {t: '$$mdi:menu-left$$', s: '$$mdi:mouse$$'}
-  - PG DN
+  - $
   - KP 4
   - KP 5
   - KP 6
-  - {t: '[', s: '{'}
+  - {t: '-', s: _}
   - {t: ']', s: '}'}
   - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:mouse-left-click-outline$$
@@ -116,7 +116,7 @@ layers:
   - KP 1
   - KP 2
   - KP 3
-  - F12
+  - {t: '=', s: +}
   - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:volume-off$$
   - {t: '$$mdi:transfer$$', type: trans}
@@ -138,11 +138,11 @@ layers:
   - {h: '4', s: '$$mdi:bluetooth-connect$$'}
   - {h: '5', s: '$$mdi:bluetooth-connect$$'}
   - FAST FORWARD
-  - F6
-  - F7
-  - F8
-  - F9
+  - {t: '$$mdi:transfer$$', type: trans}
   - F10
+  - F11
+  - F12
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:bluetooth-off$$
@@ -152,9 +152,9 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - RW
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - F11
-  - F12
+  - F7
+  - F8
+  - F9
   - _
   - +
   - {t: '$$mdi:transfer$$', type: trans}
@@ -165,9 +165,9 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:skip-previous$$
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - F4
+  - F5
+  - F6
   - '{'
   - '}'
   - {t: '$$mdi:transfer$$', type: trans}
@@ -178,9 +178,9 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:skip-next$$
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:backup-restore$$', type: bootloader}
-  - '&soft_off'
+  - F1
+  - F2
+  - F3
   - $$mdi:progress-download$$
   - {t: '$$mdi:transfer$$', type: trans}
   - RGB BRI
